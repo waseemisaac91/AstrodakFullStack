@@ -6,9 +6,9 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'u152911264_dakdb');
-define('DB_USER', 'u152911264_waseem');
-define('DB_PASS', 'W@gw19912025');
+define('DB_NAME', 'db');
+define('DB_USER', 'user');
+define('DB_PASS', '');
 
 try {
     $pdo = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASS);
